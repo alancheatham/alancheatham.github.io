@@ -1,0 +1,45 @@
+# Set the dockerfile version
+version: '2'
+
+# Specify our list of services
+services:
+    # Our NGINX server
+    nginx:
+        # Tell Docker how to build the image
+        build:
+            # Use our nginx directory as the root
+            context: nginx
+            # Use the Dockerfile at `nginx/Dockerfile`
+            dockerfile: Dockerfile
+        # Tell Docker what to name the image when it is built
+        image: alancheatham/nginx:dev
+        # Expose ports to the outside world
+        ports:
+            # Map port 80 in the container to port 80 on the host machine
+            - 80:80
+        # Let Docker know that we have to start a other services before this one
+        depends_on:
+            - app
+        # If something goes horribly wrong, just restart the server :)
+        restart: always
+    # Our node app
+    app:
+        # Tell Docker how to build the image
+        build:
+            # Use our app-1 directory as the root
+            context: app-1
+            # Use the development Dockerfile at `app-1/Dockerfile.dev`
+            dockerfile: Dockerfile.dev
+        # Tell Docker what to name the image when it is built
+        image: alancheatham/app-1:dev
+        # If something goes horribly wrong, just restart the app :)
+        restart: always
+        # Create volumes
+        volumes:
+            # Let Docker handle node_modules separately
+            - /opt/app/node_modules
+            # Map our app directory to the container's app
+            #   directory. This lets us update files and have
+            #   those changes reflected in the container
+            #   without having to restart
+            - ./app-1:/opt/app

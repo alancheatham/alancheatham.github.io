@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 npm-debug.log
 .DS_Store
 node_modules/
+=======
+*.swp
+node_modules
+>>>>>>> Initial Commit

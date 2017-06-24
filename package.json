@@ -1,11 +1,19 @@
 {
   "name": "alancheatham",
   "version": "1.0.0",
-  "description": "",
+  "description": "Alan Cheatham personal site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "npm test",
+    "test": "echo \"\\n\\nYou should setup tests to run when you commit! \\n\\n\""
   },
-  "author": "Alan Cheatham",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "ADD_THIS_HERE"
+  },
+  "author": "ADD_THIS_HERE",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^0.14.1"
+  }
 }
