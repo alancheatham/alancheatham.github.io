@@ -84,3 +84,8 @@ can indeed add a fully functional web app development system
 with webpack and the likes. Just make sure that you toggle
 file polling **on** if you are using Docker toolbox because
 otherwise file watching will fail (limitation of virtualbox).
+
+The project is also setup with `husky` which means it is ready
+to handle Git hooks. Currently, `npm test` is run whenever you
+`git commit`. No tests exist right now, but it is a great
+starting point to add some!
