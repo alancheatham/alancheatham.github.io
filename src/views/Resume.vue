@@ -51,10 +51,47 @@
           </div>
         </div>
       </div>
+      <div class="education right">
+        <h3>
+          Education
+        </h3>
+      </div>
       <div class="contact left">
         <h3>
           Contact
         </h3>
+        <a
+          class="contact__item"
+          href="mailto:alancheatham@gmail.com"
+          target="_blank"
+        >
+          <img class="icon" src="../assets/icons/email.png" />
+          <span class="icon__label">alancheatham@gmail.com</span>
+        </a>
+        <a
+          class="contact__item"
+          href="https://codepen.io/alancheatham"
+          target="_blank"
+        >
+          <img class="icon" src="../assets/icons/codepen.png" />
+          <span class="icon__label">alancheatham</span>
+        </a>
+        <a
+          class="contact__item"
+          href="https://codepen.io/alancheatham"
+          target="_blank"
+        >
+          <img class="icon" src="../assets/icons/github.png" />
+          <span class="icon__label">alancheatham</span>
+        </a>
+        <a
+          class="contact__item"
+          href="https://www.linkedin.com/in/alancheatham/"
+          target="_blank"
+        >
+          <img class="icon" src="../assets/icons/linkedin.png" />
+          <span class="icon__label">alancheatham</span>
+        </a>
       </div>
     </div>
   </div>
@@ -117,14 +154,28 @@ b
     grid-gap 40px
 
 .experience
-  height 1500px
   grid-row 1/10
-
-.contact
 
 .right
   grid-column 2
 
 .left
   grid-column 1
+
+.contact__item
+  display flex
+  align-items center
+  margin-top 5px
+
+  &:hover .icon__label
+    color #517eb9
+
+.icon
+  width 40px
+  border-radius 30%
+
+  &__label
+    margin-left 10px
+    text-decoration underline
+    color #a5cfde
 </style>
