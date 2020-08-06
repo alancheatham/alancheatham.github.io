@@ -11,7 +11,7 @@
         <div class="body">
           I live in San Diego, California. I enjoy learning and pushing myself
           and soccer and baseball and programming and music and saxophone and
-          internet
+          internet. I'm convinced the key to life lies in daily habits.
         </div>
       </div>
     </div>

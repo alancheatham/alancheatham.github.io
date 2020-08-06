@@ -11,16 +11,17 @@
           Why Alan?
         </h3>
         <p>
-          Hi, I'm Alan! I live in San Diego, California. I like to create
-          amazing user experiences. I'm proficient in HTML, CSS, JavaScript, and
-          experienced with several popular frameworks. While I specialize in
-          front end and UI work, I'm not afraid of jumping in to help in
-          middleware and backend.
+          Hi, I'm Alan! I live in San Diego, and I like to learn. I'm primarily
+          a front end engineer, and am proficient in HTML, CSS, JavaScript. I'm
+          experienced with several popular frameworks.
         </p>
         <p>
-          I'm passionate about learning new technologies, mentoring those around
-          me, and committing to an ever-increasing level of quality. I value
-          effective communication, team collaboration, and knowledge sharing.
+          I have many interests, several of which have helped me become a better
+          programmer. I'm a multi-instrumentalist and am consistently in a
+          creative headspace. I've captained several sports teams which trained
+          my leadership abilities. I look forward to challenges and motivate
+          those around me. I'm an effective and honest communicator, and am not
+          afraid to ask questions.
         </p>
       </div>
       <div class="section experience right">
@@ -57,9 +58,15 @@
               </p>
               <p>
                 <span class="ingage-project">Windows Mobile Library</span> -
-                React / Redux project created for Roche to enable users to view
-                their presentations created in Smartstudio on windows tablets.
-                Used javascript in Visual Studio.
+                React / Redux project created for Roche that enables users to
+                view their presentations created in Smartstudio on windows
+                tablets. Used javascript in Visual Studio.
+              </p>
+              <p>
+                <span class="ingage-project">WML PDF Generator</span> - Node
+                project that uses Puppeteer to take screenshots of Roche
+                Smartstudio presentations in all possible states. Got the
+                project up and running.
               </p>
             </div>
           </div>
@@ -72,7 +79,8 @@
             </div>
             <div class="job__description">
               Used Microsoft's .NET framework to add features and maintain EOS
-              International's (now owned by SirsiDynix) main product EOS.WEB.
+              International's (now owned by SirsiDynix) main library system
+              EOS.WEB.
             </div>
           </div>
           <div class="job">
@@ -115,6 +123,13 @@
         <div>Computer Science Award 2012</div>
         <a href="/lor.pdf" target="_blank">Letter of Recommendation</a>
       </div>
+      <div class="section languages right">
+        <h3>
+          Languages
+        </h3>
+        <div>English</div>
+        <div>Spanish</div>
+      </div>
       <div class="section skills left">
         <h3>
           Skills
@@ -128,7 +143,8 @@
         <span class="skill">Redux</span>
         <span class="skill">Node</span>
         <span class="skill">Electron</span>
-        <span class="skill">Knex</span>
+        <span class="skill">Unit Testing</span>
+        <span class="skill">Docker</span>
         <span class="skill">Lua</span>
       </div>
       <div class="section learning left">
@@ -216,6 +232,9 @@ p
 b
   font-weight bold
 
+.alan
+  margin-top 20px
+
 .skill
   display inline-block
 
@@ -224,6 +243,7 @@ b
   max-width 370px
   border-radius 10%
   margin auto
+  display block
 
 .ingage-project
   font-style italic
@@ -243,10 +263,7 @@ b
     margin-bottom 0
 
 .section
-  margin-top 20px
-
-  @media screen and (min-width: 740px)
-    margin-top 0
+  margin-bottom 20px
 
 .content
   width 100%
@@ -257,7 +274,7 @@ b
     display grid
     grid-template auto / 1fr 1fr
     grid-auto-flow column
-    grid-gap 20px 40px
+    grid-column-gap 40px
 
 .skill
   &:after
@@ -269,7 +286,7 @@ b
     padding 0
 
 .experience
-  grid-row 1/5
+  grid-row 1/10
 
 .right
   grid-column 2
