@@ -5,7 +5,8 @@
       <h2>Software Engineer</h2>
     </header>
     <div class="content">
-      <div class="alan left">
+      <img class="programming left" src="../assets/images/programming.jpg" />
+      <div class="section alan left">
         <h3>
           Why Alan?
         </h3>
@@ -22,7 +23,7 @@
           effective communication, team collaboration, and knowledge sharing.
         </p>
       </div>
-      <div class="experience right">
+      <div class="section experience right">
         <h3>
           Experience
         </h3>
@@ -35,12 +36,12 @@
               October 2015 - April 2020 (4 years, 7 months)
             </div>
             <div class="job__description">
-              Was a major contributor on several projects for Ingage:
+              Major contributor on several projects for Ingage:
               <p>
                 <span class="ingage-project">Ingage Presentations</span> -
-                Desktop application built with Vue and wrapped with Electron.
-                Allows the user to build beautiful interactive presentations
-                using reusable components.
+                Desktop application built with Vue and Electron. Allows the user
+                to build beautiful interactive presentations using reusable
+                components.
               </p>
               <p>
                 <span class="ingage-project">Ingage Web</span> - Current version
@@ -101,12 +102,43 @@
           </div>
         </div>
       </div>
-      <div class="education right">
+      <div class="section education right">
         <h3>
           Education
         </h3>
+        <div class="job__title">
+          <b>BS Computer Science</b> at <b>Principia College</b>
+        </div>
+        <div class="job__date">
+          Graduated 2012
+        </div>
+        <div>Computer Science Award 2012</div>
+        <a href="/lor.pdf" target="_blank">Letter of Recommendation</a>
       </div>
-      <div class="contact left">
+      <div class="section skills left">
+        <h3>
+          Skills
+        </h3>
+        <span class="skill">HTML</span>
+        <span class="skill">Javascript</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Vue</span>
+        <span class="skill">Nuxt</span>
+        <span class="skill">React</span>
+        <span class="skill">Redux</span>
+        <span class="skill">Node</span>
+        <span class="skill">Electron</span>
+        <span class="skill">Knex</span>
+        <span class="skill">Lua</span>
+      </div>
+      <div class="section learning left">
+        <h3>
+          What I'm Learning
+        </h3>
+        <span class="skill">Python</span>
+        <span class="skill">Swift</span>
+      </div>
+      <div class="section contact left">
         <h3>
           Contact
         </h3>
@@ -184,6 +216,15 @@ p
 b
   font-weight bold
 
+.skill
+  display inline-block
+
+.programming
+  width 100%
+  max-width 370px
+  border-radius 10%
+  margin auto
+
 .ingage-project
   font-style italic
   font-weight 300
@@ -198,19 +239,37 @@ b
     margin 8px 0
     font-style italic
 
+  &:last-child
+    margin-bottom 0
+
+.section
+  margin-top 20px
+
+  @media screen and (min-width: 740px)
+    margin-top 0
+
 .content
   width 100%
   max-width 800px
-  padding 30px 15px 0
+  padding 40px 15px 100px
 
   @media screen and (min-width: 740px)
     display grid
     grid-template auto / 1fr 1fr
     grid-auto-flow column
-    grid-gap 40px
+    grid-gap 20px 40px
+
+.skill
+  &:after
+    content "\b7"
+    padding 4px
+
+  &:last-child:after
+    content ""
+    padding 0
 
 .experience
-  grid-row 1/10
+  grid-row 1/5
 
 .right
   grid-column 2
@@ -223,15 +282,16 @@ b
   align-items center
   margin-top 5px
 
-  &:hover .icon__label
-    color #517eb9
-
 .icon
   width 40px
   border-radius 30%
 
   &__label
     margin-left 10px
-    text-decoration underline
-    color #a5cfde
+a
+  text-decoration underline
+  color #a5cfde
+
+  &:hover
+    color #517eb9
 </style>
