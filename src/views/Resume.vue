@@ -35,7 +35,31 @@
               October 2015 - April 2020 (4 years, 7 months)
             </div>
             <div class="job__description">
-              Basically did everything for this company
+              Was a major contributor on several projects for Ingage:
+              <p>
+                <span class="ingage-project">Ingage Presentations</span> -
+                Desktop application built with Vue and wrapped with Electron.
+                Allows the user to build beautiful interactive presentations
+                using reusable components.
+              </p>
+              <p>
+                <span class="ingage-project">Ingage Web</span> - Current version
+                started as a prototype created on my free time. Uses Nuxt to
+                create a server-side rendered web viewer of the presentations
+                using the same components as Ingage Presentations.
+              </p>
+              <p>
+                <span class="ingage-project">Smartstudio</span> - Precursor to
+                Ingage Presentations. Online editor to create and view
+                presentations using backbone. Helped add new features and unit
+                testing.
+              </p>
+              <p>
+                <span class="ingage-project">Windows Mobile Library</span> -
+                React / Redux project created for Roche to enable users to view
+                their presentations created in Smartstudio on windows tablets.
+                Used javascript in Visual Studio.
+              </p>
             </div>
           </div>
           <div class="job">
@@ -46,7 +70,33 @@
               September 2012 - February 2014 (1 year, 6 months)
             </div>
             <div class="job__description">
-              Basically did everything for this company
+              Used Microsoft's .NET framework to add features and maintain EOS
+              International's (now owned by SirsiDynix) main product EOS.WEB.
+            </div>
+          </div>
+          <div class="job">
+            <div class="job__title"><b>Game Developer</b> at <b>Self</b></div>
+            <div class="job__date">
+              Ongoing
+            </div>
+            <div class="job__description">
+              Released two games on iOS and Android
+              <a
+                class="contact__item"
+                href="https://apps.apple.com/us/app/pivot-timing-game/id1507306708"
+                target="_blank"
+              >
+                <img class="icon" src="../assets/icons/pivot.png" />
+                <span class="icon__label">Pivot</span>
+              </a>
+              <a
+                class="contact__item"
+                href="https://apps.apple.com/us/app/poke-a-dot-reflex-game/id929419021"
+                target="_blank"
+              >
+                <img class="icon" src="../assets/icons/pokeadot.png" />
+                <span class="icon__label">Poke a Dot</span>
+              </a>
             </div>
           </div>
         </div>
@@ -78,7 +128,7 @@
         </a>
         <a
           class="contact__item"
-          href="https://codepen.io/alancheatham"
+          href="https://github.com/alancheatham"
           target="_blank"
         >
           <img class="icon" src="../assets/icons/github.png" />
@@ -109,6 +159,7 @@ export default {
   flex-direction column
   align-items center
   padding 20px
+  line-height 1.2
 
 header
   text-align center
@@ -133,14 +184,19 @@ p
 b
   font-weight bold
 
+.ingage-project
+  font-style italic
+  font-weight 300
+  color #a5cfde
+
 .job
   margin-bottom 30px
 
   &__date
     font-size 13px
-    font-style italic
     font-weight 300
     margin 8px 0
+    font-style italic
 
 .content
   width 100%
