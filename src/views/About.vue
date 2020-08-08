@@ -53,6 +53,7 @@ img
 
 .header
   font-size 25px
+  color #a5cfde
 
 .body
   padding-top 20px

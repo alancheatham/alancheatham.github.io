@@ -1,7 +1,6 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 import About from "../views/About.vue"
-import Code from "../views/Code.vue"
 import Music from "../views/Music.vue"
 import Resume from "../views/Resume.vue"
 
@@ -12,11 +11,6 @@ const routes = [
     path: "/",
     name: "About",
     component: About,
-  },
-  {
-    path: "/code",
-    name: "Code",
-    component: Code,
   },
   {
     path: "/music",

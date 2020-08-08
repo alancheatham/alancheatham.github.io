@@ -7,23 +7,12 @@
       <div class="right">
         <router-link class="link" to="/">About</router-link>
         <router-link class="link" to="/music">Music</router-link>
-        <router-link class="link" to="/code">Code</router-link>
         <router-link class="link" to="/resume">Résumé</router-link>
       </div>
     </div>
     <router-view class="page" />
   </div>
 </template>
-
-<script>
-export default {
-  methods: {
-    mounted() {
-      console.log("hi", this.$route)
-    },
-  },
-}
-</script>
 
 <style lang="stylus" scoped>
 .app
@@ -38,11 +27,14 @@ export default {
   font-size 17px
 
   overflow-x hidden
+
 .nav
+  color #a5cfde
   display flex
   justify-content space-between
   align-items center
   padding 20px
+  height 57px
 
 .link
   margin 15px 0 15px 15px

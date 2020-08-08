@@ -11,17 +11,21 @@
           Why Alan?
         </h3>
         <p>
-          Hi, I'm Alan! I live in San Diego, and I like to learn. I'm primarily
-          a front end engineer, and am proficient in HTML, CSS, JavaScript. I'm
-          experienced with several popular frameworks.
+          Hi, I'm Alan! I live in San Diego, and I like to learn. I primarily
+          work on the front end, and am proficient in HTML, CSS, JavaScript. I'm
+          equal parts big picture and detail oriented, and have experience with
+          several popular frameworks.
         </p>
         <p>
           I have many interests, several of which have helped me become a better
-          programmer. I'm a multi-instrumentalist and am consistently in a
-          creative headspace. I've captained several sports teams which trained
-          my leadership abilities. I look forward to challenges and motivate
-          those around me. I'm an effective and honest communicator, and am not
-          afraid to ask questions.
+          programmer. I'm a multi-instrumentalist and love creativity and
+          improvisation. I've captained several sports teams which made me a
+          better leader. I look forward to challenges and motivate those around
+          me, and am an effective and honest communicator.
+        </p>
+        <p>
+          After college I pursued professional baseball for a couple years, and
+          spent the second half of 2019 playing music and touring with my band.
         </p>
       </div>
       <div class="section experience right">
@@ -34,10 +38,13 @@
               <b>Software Engineer</b> at <b>Ingage</b>
             </div>
             <div class="job__date">
-              October 2015 - April 2020 (4 years, 7 months)
+              October 2015 - May 2019 (3 years, 7 months)
+            </div>
+            <div class="job__date">
+              December 2019 - April 2020 (4 months)
             </div>
             <div class="job__description">
-              Major contributor on several projects for Ingage:
+              Major contributor on several projects for Ingage
               <p>
                 <span class="ingage-project">Ingage Presentations</span> -
                 Desktop application built with Vue and Electron. Allows the user
@@ -78,9 +85,9 @@
               September 2012 - February 2014 (1 year, 6 months)
             </div>
             <div class="job__description">
-              Used Microsoft's .NET framework to add features and maintain EOS
-              International's (now owned by SirsiDynix) main library system
-              EOS.WEB.
+              Worked part time and used Microsoft's .NET framework to add
+              features and maintain EOS International's (now owned by
+              SirsiDynix) main library system EOS.WEB.
             </div>
           </div>
           <div class="job">
@@ -106,6 +113,10 @@
                 <img class="icon" src="../assets/icons/pokeadot.png" />
                 <span class="icon__label">Poke a Dot</span>
               </a>
+              <p>
+                I enjoy thinking of and making "brain" games that test reflexes,
+                timing, and quick thinking.
+              </p>
             </div>
           </div>
         </div>
@@ -145,6 +156,7 @@
         <span class="skill">Electron</span>
         <span class="skill">Unit Testing</span>
         <span class="skill">Docker</span>
+        <span class="skill">Socket.IO</span>
         <span class="skill">Lua</span>
       </div>
       <div class="section learning left">
@@ -194,12 +206,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: "Home",
-}
-</script>
 
 <style lang="stylus" scoped>
 .resume
@@ -286,13 +292,16 @@ b
     padding 0
 
 .experience
-  grid-row 1/10
+  grid-row 1/6
 
 .right
   grid-column 2
 
 .left
   grid-column 1
+
+.contact
+  grid-row 5/10
 
 .contact__item
   display flex
