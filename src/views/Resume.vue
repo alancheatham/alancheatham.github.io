@@ -11,10 +11,10 @@
           Why Alan?
         </h3>
         <p>
-          Hi, I'm Alan! I live in San Diego, and I like to learn. I primarily
-          work on the front end, and am proficient in HTML, CSS, JavaScript. I'm
-          equal parts big picture and detail oriented, and have experience with
-          several popular frameworks.
+          Hi, I'm Alan! I live in San Diego. I primarily work on the front end,
+          and am proficient in HTML, CSS, JavaScript. I'm equal parts big
+          picture and detail oriented, and have experience with several popular
+          frameworks.
         </p>
         <p>
           I have many interests, several of which have helped me become a better
@@ -250,6 +250,7 @@ b
   border-radius 10%
   margin auto
   display block
+  border 2px solid #a5cfde
 
 .ingage-project
   font-style italic
@@ -311,10 +312,13 @@ b
 .icon
   width 40px
   border-radius 30%
+  transition ease-in 0.1s
 
   &__label
     margin-left 10px
 
+  &:hover
+    transform scale(1.1)
 a
   text-decoration underline
   color #a5cfde

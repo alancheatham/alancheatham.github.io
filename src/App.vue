@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 .app
   width 100%
   height 100%

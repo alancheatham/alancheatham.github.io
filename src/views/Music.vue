@@ -24,6 +24,7 @@
         <div class="band__content">
           <div class="header band__header">Casual Yak</div>
           <iframe
+            class="band__music"
             src="https://open.spotify.com/embed/track/3Z09WDXMaCpXkvWffjOgZI"
             width="300"
             height="380"
@@ -46,6 +47,7 @@
         <div class="band__content">
           <div class="header band__header">Arch Narcissist</div>
           <iframe
+            class="band__music"
             src="https://open.spotify.com/embed/track/7fxbO3VAcaLhPNwmsaoM6j"
             width="300"
             height="380"
@@ -68,6 +70,7 @@
         <div class="band__content">
           <div class="header band__header">Chunky Hustle Brass Band</div>
           <iframe
+            class="band__music"
             width="400"
             height="300"
             scrolling="no"
@@ -129,7 +132,10 @@
 .container
   width 100%
   max-width 840px
-  padding-top 30px
+  margin-top 30px
+  border 2px solid #a5cfde
+  border-radius 20px
+  overflow hidden
 
 .scale
   position relative
@@ -181,7 +187,7 @@
   padding-top 100px
   font-weight bold
 
-iframe
+.band__music
   margin-top 22px
 
 .contact__item
@@ -192,6 +198,10 @@ iframe
 .icon
   width 40px
   border-radius 30%
+  transition ease-in 0.1s
+
+  &:hover
+    transform scale(1.1)
 
   &__label
     margin-left 10px
