@@ -5,7 +5,12 @@
       <h2>Software Engineer</h2>
     </header>
     <div class="content">
-      <img class="programming left" src="../assets/images/programming.jpg" />
+      <img
+        class="programming left"
+        src="../assets/images/programming.jpg"
+        width="365"
+        height="275"
+      />
       <div class="section alan left">
         <h3>
           Why Alan?
@@ -245,8 +250,8 @@ b
   display inline-block
 
 .programming
-  width 100%
-  max-width 370px
+  max-width 100%
+  height auto
   border-radius 10%
   margin auto
   display block
@@ -275,7 +280,7 @@ b
 .content
   width 100%
   max-width 800px
-  padding 40px 15px 100px
+  padding 40px 15px 40px
 
   @media screen and (min-width: 740px)
     display grid

@@ -137,6 +137,10 @@
   border-radius 20px
   overflow hidden
 
+  // ios safari overflow hidden position absolute bug
+  transform translateZ(0)
+  -webkit-mask-image -webkit-radial-gradient(circle,#fff 100%,#000 0)
+
 .scale
   position relative
   padding-bottom 56.25%
