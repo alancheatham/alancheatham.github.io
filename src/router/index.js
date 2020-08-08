@@ -8,6 +8,11 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: "*",
+    name: "About",
+    component: About,
+  },
+  {
     path: "/",
     name: "About",
     component: About,
@@ -25,6 +30,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: "history",
   routes,
 })
 

@@ -6,6 +6,9 @@ set -e
 # build
 yarn build
 
+# copy 404.html
+cp 404.html dist/404.html
+
 # navigate into the build output directory
 cd dist
 
