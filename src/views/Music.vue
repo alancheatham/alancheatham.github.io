@@ -71,8 +71,8 @@
           <div class="header band__header">Chunky Hustle Brass Band</div>
           <iframe
             class="band__music"
-            width="400"
-            height="300"
+            width="370"
+            height="278"
             scrolling="no"
             frameborder="no"
             allow="autoplay"
