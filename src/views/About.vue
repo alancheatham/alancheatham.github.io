@@ -9,9 +9,9 @@
           Hi, I'm Alan!
         </div>
         <div class="body">
-          I live in San Diego, California. I enjoy learning and pushing myself
-          and soccer and baseball and programming and music and saxophone and
-          internet. I'm convinced the key to life lies in daily habits.
+          I live in San Diego, California. I like creating, learning, music,
+          coding, sports, habits, spirituality, breathing, questioning, the
+          present, the future, challenges, and a healthy lifestyle.
         </div>
       </div>
     </div>
@@ -28,12 +28,11 @@ export default {
 .home
   display flex
   justify-content center
-  padding-top 30px
 
 .content
-  max-width 350px
+  max-width 330px
   width 100%
-  padding 15px
+  padding 0 15px 15px
   display flex
   flex-direction column
   align-items center

@@ -212,7 +212,7 @@
   display flex
   flex-direction column
   align-items center
-  padding 20px
+  padding-bottom 20px
   line-height 1.2
 
 header
@@ -314,6 +314,7 @@ b
 
   &__label
     margin-left 10px
+
 a
   text-decoration underline
   color #a5cfde

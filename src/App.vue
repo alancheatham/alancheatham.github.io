@@ -41,6 +41,7 @@
 
 .page
   background #353839
+  padding-top 40px
 
 .router-link-exact-active
   text-decoration underline
