@@ -9,7 +9,7 @@
         class="programming left"
         src="../assets/images/programming.jpg"
         width="365"
-        height="275"
+        height="274"
       />
       <div class="section alan left">
         <h3>
