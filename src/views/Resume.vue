@@ -43,10 +43,7 @@
               <b>Software Engineer</b> at <b>Ingage</b>
             </div>
             <div class="job__date">
-              October 2015 - May 2019 (3 years, 7 months)
-            </div>
-            <div class="job__date">
-              December 2019 - April 2020 (4 months)
+              October 2015 - April 2020
             </div>
             <div class="job__description">
               Major contributor on several projects for Ingage
@@ -90,9 +87,9 @@
               September 2012 - February 2014 (1 year, 6 months)
             </div>
             <div class="job__description">
-              Worked part time and used Microsoft's .NET framework to add
-              features and maintain EOS International's (now owned by
-              SirsiDynix) main library system EOS.WEB.
+              Used Microsoft's .NET framework to add features and maintain EOS
+              International's (now owned by SirsiDynix) main library system
+              EOS.WEB.
             </div>
           </div>
           <div class="job">
