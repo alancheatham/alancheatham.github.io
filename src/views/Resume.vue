@@ -84,7 +84,7 @@
               <b>Junior Software Engineer</b> at <b>EOS International</b>
             </div>
             <div class="job__date">
-              September 2012 - February 2014 (1 year, 6 months)
+              September 2012 - February 2014
             </div>
             <div class="job__description">
               Used Microsoft's .NET framework to add features and maintain EOS
