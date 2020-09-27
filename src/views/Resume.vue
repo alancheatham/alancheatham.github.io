@@ -165,8 +165,7 @@
         <h3>
           What I'm Learning
         </h3>
-        <span class="skill">Python</span>
-        <span class="skill">Swift</span>
+        <span class="skill">Chrome Extensions</span>
       </div>
       <div class="section contact left">
         <h3>
